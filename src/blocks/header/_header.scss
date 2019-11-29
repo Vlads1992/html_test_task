@@ -11,9 +11,12 @@
     &__content {
         position:absolute;
         top:0;
-        left:50%;
         z-index:1;
-        margin-left: -50px;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
     }
 /* Text style for "colorful" */
     &__content h1 {
