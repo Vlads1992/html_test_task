@@ -1,7 +1,24 @@
 .header {
 
+   //#background {
+    
+    //position: absolute;
+    //top: 50%; 
+    //left: 50%;
+    //-webkit-transform: translateX(-50%) translateY(-50%);
+    //transform: translateX(-50%) translateY(-50%);
+    //min-width: 100%; 
+    //min-height: 100%; 
+    //width: auto; 
+    //height: auto;
+    //z-index: -1000; 
+    //overflow: hidden;
+  
+//}
+
     &__background {
         overflow-x: hidden;
+        
     }
 
     //video
@@ -9,6 +26,8 @@
         position:relative;
         z-index:0;
         display: block;
+        
+
     }
 
     &__background:before {
@@ -21,6 +40,7 @@
         bottom: 0;
         left: 0;
         z-index: 1;
+        
       }
 
 
@@ -33,6 +53,7 @@
         margin-left:auto;
         margin-right:auto;
         text-align: center;
+        
     }
 /* Text style for "colorful" */
     &__content h1 {
