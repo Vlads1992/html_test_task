@@ -30,10 +30,22 @@
         height: 90px;
         background-color: white;
         border-radius: 50%;
+        position: relative;
     }
 
     &__list {
         display: flex;
         justify-content: center;
+    }
+
+    &__number {
+        color: #f34235;
+        font-family: 'Lato', sans-serif;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 24px;
+        position: absolute;
+        top: 35px;
+        left: 30px;
     }
 }
