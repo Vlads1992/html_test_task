@@ -22,6 +22,12 @@
         background-color: rgba(221, 60, 48, 1);
     }
 
+    .card-header {
+      color: transparent;
+      padding: 0;
+      border: none;
+    }
+
     .myaccordion {
         max-width: 500px;
         margin: 50px auto;
@@ -58,14 +64,15 @@
         border: none;
       }
       
+      .btn {
+        border-radius: 0;
+      }
+
       .myaccordion .btn-link:hover,
       .myaccordion .btn-link:focus {
         text-decoration: none;
       }
       
-      .myaccordion li + li {
-        margin-top: 10px;
-      }
 
       .fa-plus {
         color: #ff4538;
