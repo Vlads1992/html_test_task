@@ -70,4 +70,12 @@
       .fa-plus {
         color: #ff4538;
       }
+
+      .fa-minus {
+        color: #ff4538;
+      }
+
+      .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
 }
