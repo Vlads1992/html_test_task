@@ -7,8 +7,10 @@
         color: #333;
     }
 
+
     &__description--white {
         color: white;
+        
         opacity: 0.8;
         font-family: Lato;
         font-size: 20px;
@@ -20,23 +22,33 @@
 
     .card-body {
         background-color: rgba(221, 60, 48, 1);
+        margin-bottom: 20px;
+        
     }
 
     .card-header {
       color: transparent;
       padding: 0;
       border: none;
+      
     }
 
     .myaccordion {
         max-width: 500px;
         margin: 50px auto;
         box-shadow: 0 0 1px rgba(0,0,0,0.1);
+        
+      }
+
+      .card {
+        padding-bottom: 29px;
       }
       
       .myaccordion .card,
       .myaccordion .card:last-child .card-header {
         border: none;
+        background-color: transparent;
+        padding-bottom: none;
       }
       
       .myaccordion .card-header {
@@ -66,6 +78,7 @@
       
       .btn {
         border-radius: 0;
+        
       }
 
       .myaccordion .btn-link:hover,
