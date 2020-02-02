@@ -18,3 +18,4 @@ $("#accordion3").on("hide.bs.collapse show.bs.collapse", e => {
     .find("i:last-child")
     .toggleClass("fa-minus fa-plus");
 });
+
