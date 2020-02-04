@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"/><link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css"/><link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico"/>
   </head>
   <body>
     <div class="header">
@@ -546,18 +547,14 @@
       <div class="container-fluid pr-0 pl-0">
         <div class="row">
           <div class="col-12 d-flex justify-content-center pr-0">
-            <div class="work__images"><img src="./img/theme1x1.jpg" alt="theme1"/>
-              <div class="work__back"><img src="./img/circle.png" alt="circle"/></div>
-            </div>
-            <div class="work__images"><img src="./img/theme2x1.jpg" alt="theme2"/>
-              <div class="work__back"><img src="./img/circle.png" alt="circle"/></div>
-            </div>
-            <div class="work__images"><img src="./img/theme3x1.jpg" alt="theme3"/>
-              <div class="work__back"><img src="./img/circle.png" alt="circle"/></div>
-            </div>
-            <div class="work__images"><img src="./img/theme4x1.jpg" alt="theme4"/>
-              <div class="work__back"><img src="./img/circle.png" alt="circle"/></div>
-            </div>
+            <div class="work__images"><a href="./img/theme1.jpg" data-fancybox="images"><img src="./img/theme1x1.jpg" alt="theme1"/>
+                <div class="work__back"><img src="./img/circle.png" alt="circle"/></div></a></div>
+            <div class="work__images"><a href="./img/theme2.jpg" data-fancybox="images"><img src="./img/theme2x1.jpg" alt="theme2"/>
+                <div class="work__back"><img src="./img/circle.png" alt="circle"/></div></a></div>
+            <div class="work__images"><a href="./img/theme3.jpg" data-fancybox="images"><img src="./img/theme3x1.jpg" alt="theme3"/>
+                <div class="work__back"><img src="./img/circle.png" alt="circle"/></div></a></div>
+            <div class="work__images"><a href="./img/theme4.jpg" data-fancybox="images"><img src="./img/theme4x1.jpg" alt="theme4"/>
+                <div class="work__back"><img src="./img/circle.png" alt="circle"/></div></a></div>
           </div>
         </div>
       </div>
@@ -566,5 +563,6 @@
 </html><link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="./js/jquery.fancybox.min.js"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script id="rendered-js" src="./js/accordion.js"></script>
