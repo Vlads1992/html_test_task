@@ -4,5 +4,21 @@
 
     &__title--black h2 {
         color: #333;
+        text-align: left !important;
+        margin-bottom: 22px;
     }
+
+    &__paragraph--blue {
+        opacity: 1;
+        text-align: left !important;
+        color: #5dbdfe;
+    }
+
+    &__description--black {
+        opacity: 0.8;
+        color: #333;
+        text-align: left;
+    }
+
+    
 }
