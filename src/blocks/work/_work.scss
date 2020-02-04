@@ -24,9 +24,28 @@
         margin-bottom: 125px;
     }
     
+    &__images {
+        position: relative;
+    }
+
     &__images img {
-        
+        position: relative;
         max-width: 100%;
         height: auto;
+    }
+
+    &__back {
+        content: '';
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+        margin-top: -30px;
+        pointer-events: none;
+    }
+
+    &__images img:hover + &__back {
+        display: block;
     }
 }
