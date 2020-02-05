@@ -24,13 +24,30 @@
         box-shadow: 1.5px 2.6px 8px rgba(0, 0, 0, 0.1);
     }
 
+    &__description {
+        
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
+        z-index: 1;
+    }
+
+
     &__time {
+        visibility: hidden;
         color: #cfcfcf;
         font-family: 'Lato', sans-serif;
         font-size: 16px;
         font-weight: 900;
         line-height: 34px;
+        
     }
+
+    &__image:hover &__time {
+        visibility: visible;
+    
+    }
+    
 
 
     .gradient {
