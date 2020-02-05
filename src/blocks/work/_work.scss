@@ -52,9 +52,9 @@
     }
 
     &__back img {
-        box-shadow: none !important;
+        box-shadow: none;
     }
-    
+
     &__images img:hover + &__back {
         display: block;
         

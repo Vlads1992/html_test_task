@@ -28,7 +28,7 @@
         
         position: absolute;
         left: 20px;
-        bottom: 50px;
+        bottom: 40px;
         z-index: 1;
     }
 
@@ -40,7 +40,31 @@
         font-size: 16px;
         font-weight: 900;
         line-height: 34px;
-        
+        margin-bottom: 13px;
+    }
+
+    &__paragraph {
+        visibility: hidden;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 46px;
+    }
+
+    &__back {
+    content: '';
+    visibility: hidden;
+    position: absolute;
+    left: 90%;
+    top: 15%;
+    transform: translate(-50%);
+    margin-top: -30px;
+    pointer-events: none;
+    }
+
+    &__back img {
+        box-shadow: none;
     }
 
     &__image:hover &__time {
@@ -48,6 +72,13 @@
     
     }
     
+    &__image:hover &__paragraph {
+        visibility: visible;
+    }
+
+    &__image:hover &__back {
+        visibility: visible;
+    }
 
 
     .gradient {
