@@ -24,6 +24,15 @@
         box-shadow: 1.5px 2.6px 8px rgba(0, 0, 0, 0.1);
     }
 
+    &__time {
+        color: #cfcfcf;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 34px;
+    }
+
+
     .gradient {
         position: relative;
         display: inline-block;
