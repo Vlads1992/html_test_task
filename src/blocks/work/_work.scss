@@ -2,6 +2,7 @@
     padding-top: 120px;
     background-color: white;
 
+
     &__title--black h2 {
         color: #333;
         text-align: left !important;
@@ -26,6 +27,7 @@
     
     &__images {
         position: relative;
+        
     }
 
     &__images img {
@@ -34,6 +36,8 @@
         height: auto;
         box-shadow: 1.5px 2.6px 8px rgba(0, 0, 0, 0.1);
     }
+
+    
 
     &__back {
         content: '';
@@ -44,9 +48,16 @@
         transform: translate(-50%);
         margin-top: -30px;
         pointer-events: none;
+        
     }
 
+    &__back img {
+        box-shadow: none !important;
+    }
+    
     &__images img:hover + &__back {
         display: block;
+        
     }
+
 }
