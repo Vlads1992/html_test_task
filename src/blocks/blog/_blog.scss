@@ -1,0 +1,18 @@
+.blog {
+    background-color: #f1f1f1;
+    padding-top: 130px;
+
+    &__title--black {
+        margin-bottom: 50px;
+    }
+
+    &__paragraph--black p {
+        opacity: 0.8;
+        margin-bottom: 70px;
+    }
+
+    &__image img {
+        max-width: 100%;
+        margin-bottom: 120px;
+    }
+}
