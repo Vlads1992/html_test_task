@@ -59,6 +59,12 @@
         color: white;
     }
 
+    &__description--white p {
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+
     a {
         text-decoration: none;
         color: inherit;
@@ -71,5 +77,9 @@
     i {
         align-self: center;
         
+    }
+
+    i:hover {
+        color: black;
     }
 }
