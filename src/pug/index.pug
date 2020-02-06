@@ -9,6 +9,7 @@ include ../blocks/work/_work.pug
 include ../blocks/blog/_blog.pug
 include ../blocks/partners/_partners.pug
 include ../blocks/footer/_footer.pug
+include ../blocks/map/_map.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -36,7 +37,7 @@ html(lang="en")
         +blog
         +partners
         +footer
-        
+        +map
 
 
 
@@ -47,4 +48,6 @@ html(lang="en")
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/back.js"></script>
 
+script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQDEK_bp8E3TJz1Sg1VMqF7jn8J3Z7Haw")
+<script src="./js/map.js"></script>
 <script id="rendered-js" src="./js/accordion.js"></script>
