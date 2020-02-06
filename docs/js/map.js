@@ -15,11 +15,11 @@ var GM = {
 
     initMap: function () {
         var coordinates = {
-                lat: 40.663323,
-                lng: -73.876256
+                lat: 40.690993,
+                lng: -73.909858
             },
             coordinatesMarker = {
-                lat: 40.689993,
+                lat: 40.690993,
                 lng: -73.909858
             }
         popupContent = this.$popupContent.html(),
