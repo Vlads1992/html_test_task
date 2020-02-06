@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 133px;
+    background-color: #333;
+
+    &__title--white {
+        color: white;
+        margin-bottom: 63px;
+    }
+
+    &__paragraph--white {
+        color: white;
+        opacity: 1;
+        margin-bottom: 19px;
+    }
+
+    &__phone {
+        font-weight: 400;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        color: red;
+    }
+}
