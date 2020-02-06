@@ -2,6 +2,14 @@
     background-color: #f1f1f1;
     padding-top: 130px;
 
+    a {
+        display:inline-block;
+        cursor: pointer;
+    }
+    a img {
+        display:block;
+    }
+
     &__title--black {
         margin-bottom: 50px;
     }
@@ -60,11 +68,13 @@
     top: 15%;
     transform: translate(-50%);
     margin-top: -30px;
-    pointer-events: none;
+    pointer-events: auto;
+    z-index: 1;
     }
 
     &__back img {
         box-shadow: none;
+        
     }
 
     &__image:hover &__time {
@@ -95,7 +105,7 @@
         height: 100%;
         display: inline-block;
         background-image: linear-gradient(to top, rgba(51, 51, 51, 0.6) 0%, transparent 56%, transparent 100%);
-        
+        z-index: 0;
     }
     
     
