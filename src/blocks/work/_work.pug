@@ -2,10 +2,10 @@ mixin work
     .work
         .container.container--lg
             .row
-                .col-6
+                .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-12
                     .work__video
                         <iframe width="570" height="338" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                .col-6.pl-5
+                .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-12.pl-5
                     .title.work__title--black
                         h2 How Its Work
                     .paragraph.work__paragraph--blue
@@ -13,23 +13,26 @@ mixin work
                     .description.work__description--black
                         p Malorum dolores gloriatur pro at, id offendit lucilius democritum quo. Ludus ubique fastidii dolores sit et persius reformidans. Ei vide movet tibique ius, eos vivendo consetetur theophrastus cu. Eum erroribus necessitatibus ne. Eius singulis ea his, debitis nonumes at per  appareat ponderum eos.
         .container-fluid.pr-0.pl-0
-            .row
-                .col-12.d-flex.justify-content-center.pr-0
+            .row.no-gutters
+                .col-xl-3.col-lg-3.col-md-3.col-sm-3.col-12
                     .work__images
                         a(href="./img/theme1.jpg" data-fancybox="images")
                             img(src="./img/theme1x1.jpg" alt="theme1")
                             .work__back
                                 img(src="./img/circle.png", alt="circle")
+                .col-xl-3.col-lg-3.col-md-3.col-sm-3.col-12
                     .work__images
                         a(href="./img/theme2.jpg" data-fancybox="images")
                             img(src="./img/theme2x1.jpg" alt="theme2")
                             .work__back
                                 img(src="./img/circle.png", alt="circle")
+                .col-xl-3.col-lg-3.col-md-3.col-sm-3.col-12
                     .work__images
                         a(href="./img/theme3.jpg" data-fancybox="images")
                             img(src="./img/theme3x1.jpg" alt="theme3")
                             .work__back
                                 img(src="./img/circle.png", alt="circle")
+                .col-xl-3.col-lg-3.col-md-3.col-sm-3.col-12
                     .work__images
                         a(href="./img/theme4.jpg" data-fancybox="images")
                             img(src="./img/theme4x1.jpg" alt="theme4")
