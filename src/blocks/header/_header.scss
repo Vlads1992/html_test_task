@@ -4,12 +4,15 @@
         overflow-x: hidden;
     }
 
-    //video
+    //video 
     &__background video {
         position:relative;
         z-index:0;
         display: block;
-        
+
+        @media screen and (max-width: 575px) {
+            height: 100vh; min-height: 100%;
+        }
 
     }
 
@@ -99,6 +102,9 @@
     margin-top: 150px;
     box-shadow: 0.5px 0.9px 13px rgba(0, 0, 0, 0.3);
     
+    
+
+
     }
 
     input::placeholder {
